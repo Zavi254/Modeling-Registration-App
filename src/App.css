@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #003547;
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginBackground {
+  height: 100vh;
+  /* background-color: #264ECA; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#loginForm {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#adminLoginForm {
+  width: 700px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 1px 9px #2148C0;
+  -moz-box-shadow: 1px 1px 9px #2148C0;
+  box-shadow: 1px 1px 9px #2148C0;
+  background-color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#userLoginForm {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 1px 9px #2148C0;
+  -moz-box-shadow: 1px 1px 9px #2148C0;
+  box-shadow: 1px 1px 1px #fff;
+  background-color: #FFFFFF;
+  height: auto;
+  margin-top: 80px;
+  background-image: url('https://img.freepik.com/free-photo/delivery-concept-portrait-handsome-african-american-delivery-man-courier-showing-confirmation-document-form-sign-isolated-grey-studio-background-copy-space_1258-102170.jpg?w=2000&t=st=1660080264~exp=1660080864~hmac=2a8e22da06635a4327c2754f126f49d72c63bc0a9e4349274f3718783c60f970');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 20px;
+}
+
+#userLoginForm>* :not(#eventTitle, h3) {
+  /* font-size: 1.4rem; */
+  /* font-weight: bold; */
+  border-radius: 7px;
+  border: none;
+  padding: 5px;
+  outline-color: #2148C0;
+  margin-right: 5px;
+}
+
+#adminLoginForm>* {
+  margin-top: 50px;
+  font-size: 1.4rem;
+  border-radius: 7px;
+  border-width: thin;
+  padding: 10px;
+}
+
+#adminLoginForm>.input {
+  background-color: transparent;
+}
+
+::placeholder {
+  /* color: #000000; */
+  opacity: 1;
+  font-weight: 100;
+}
+
+#loginButton {
+  width: 200px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+
+.userButton {
+  width: 220px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.8rem;
+}
+
+#eventTitle {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+#adminDashboard {
+  background-color: #fff;
+  height: 100vh;
+}
+
+#leftAdminPanel {
+  width: 40vw;
+  max-width: 100%;
+  background-color: #2A3042;
+}
+
+#membersAdminPanel {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  background-image: url('https://img.freepik.com/free-vector/social-media-data-center-smm-stats-digital-marketing-research-market-trends-analysis-female-expert-studying-online-survey-results_335657-2392.jpg?w=826&t=st=1660139399~exp=1660139999~hmac=2e4e888adcad2b2343ce5817bea902fde99a3be5268397c4337f2a1adfc6f3ae');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image {
+  width: 150px;
+  max-width: 100%;
+  margin-bottom: 30px;
+  margin: auto;
+}
+
+#membersContainer {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+#namesTitles {
+  background-color: #2A3042;
+  color: #fff;
+  height: auto;
+  padding: 8px;
+  margin-bottom: 9px;
+}
+#landingPage{
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+#landingPage  h1{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: black;
+  font-size: 3.2rem;
+}
+#bannerImage{
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  width: 55vw;
+  max-width: 100%;
+}
+#content > *{
+  margin-bottom: 60px;
 }
