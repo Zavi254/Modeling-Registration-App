@@ -151,15 +151,22 @@ body {
 #landingPage  h1{
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
-  color: black;
-  font-size: 3.2rem;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
 }
 #bannerImage{
   border-top-left-radius: 25%;
   border-bottom-left-radius: 25%;
-  width: 55vw;
+  width: 50%;
+  /* width: 1000px; */
   max-width: 100%;
+  background-image: url('https://img.freepik.com/free-vector/group-people-illustration-set_52683-33806.jpg?w=2000&t=st=1660257769~exp=1660258369~hmac=5de65fa77c6bb7a8921e3295d9fc2ce7e95da7189e02a5dae23543daeed8fcb0');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #content > *{
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
