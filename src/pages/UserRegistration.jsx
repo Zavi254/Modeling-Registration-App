@@ -11,7 +11,7 @@ function UserRegistration() {
       `Congratulations ${firstName} ${lastName} for Registering for the event!!!`
     );
 
-    fetch("https://brainy-quill-son.glitch.me/users", {
+    fetch("https://versed-defiant-prune.glitch.me/users", {
       method: "POST",
       body: JSON.stringify({
         firstName: firstName,

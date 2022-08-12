@@ -5,7 +5,7 @@ function AdminDashboard() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://brainy-quill-son.glitch.me/users")
+    fetch("https://versed-defiant-prune.glitch.me/users")
       .then((reponse) => reponse.json())
       .then((data) => setUsers(data));
   }, [users]);

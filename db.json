@@ -1,0 +1,18 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "Alvin",
+        "lastName": "Chege",
+        "phone": "0712345678",
+        "email": "alvinchege@gmail.com"
+      },
+      {
+        "firstName": "nancy",
+        "lastName": "saru",
+        "phone": "0724876543",
+        "email": "wawasi@gmail.com",
+        "id": 2
+      }
+    ]
+  }
